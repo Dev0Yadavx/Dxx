@@ -1,0 +1,8 @@
+{
+  "name": "Remix All Social DX",
+  "description": "All-in-one social media video and audio downloader with format selection and built-in player",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

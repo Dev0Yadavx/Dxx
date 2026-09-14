@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Download Arrow with Cyan Glow -->
+    <!-- Down Arrow Body -->
+    <path
+        android:fillColor="#00ADB5"
+        android:pathData="M50,28 L58,28 L58,54 L69,54 L54,72 L39,54 L50,54 Z" />
+    
+    <!-- Video Play accent in center -->
+    <path
+        android:fillColor="#EEEEEE"
+        android:pathData="M52,42 L59,47 L52,52 Z" />
+
+    <!-- Download Tray Base -->
+    <path
+        android:fillColor="#00FFF5"
+        android:pathData="M34,74 L74,74 C75.5,74 76.5,75 76.5,76.5 C76.5,78 75.5,79 74,79 L34,79 C32.5,79 31.5,78 31.5,76.5 C31.5,75 32.5,74 34,74 Z" />
+</vector>
