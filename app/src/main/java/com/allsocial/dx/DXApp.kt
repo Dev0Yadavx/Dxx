@@ -1,4 +1,4 @@
-package com.example
+package com.allsocial.dx
 
 import android.app.Application
 import com.chaquo.python.Python

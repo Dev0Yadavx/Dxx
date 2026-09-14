@@ -119,6 +119,9 @@ dependencies {
   implementation(libs.logging.interceptor)
   implementation(libs.moshi.kotlin)
   implementation(libs.okhttp)
+  implementation("com.chaquo.python.runtime:chaquopy_java:17.0.0") {
+    exclude(group = "org.jetbrains", module = "annotations-java5")
+  }
   // implementation(libs.play.services.location)
   implementation(libs.retrofit)
   testImplementation(libs.androidx.compose.ui.test.junit4)
