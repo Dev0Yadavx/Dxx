@@ -638,7 +638,8 @@ fun InAppPlayer(url: String, onClose: () -> Unit) {
 
         ExoPlayer.Builder(context, renderersFactory).build().apply {
             setAudioAttributes(audioAttributes, true)
-            setMediaItem(MediaItem.fromUri(Uri.parse(url)))
+            val localUri = Uri.parse(url)
+            setMediaItem(MediaItem.fromUri(localUri))
             addListener(object : Player.Listener {
                 override fun onPlayerError(error: PlaybackException) {
                     Log.w("InAppPlayer", "ExoPlayer playback warning: ${error.errorCodeName} - ${error.message}")
